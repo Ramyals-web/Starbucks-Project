@@ -1,8 +1,8 @@
 Beverage_category,Beverage,Beverage_prep,Size,Calories, Total Fat (g),Trans Fat (g) ,Saturated Fat (g), Sodium (mg), Total Carbohydrates (g) ,Cholesterol (mg), Dietary Fibre (g), Sugars (g), Protein (g) ,Vitamin A (% DV) ,Vitamin C (% DV), Calcium (% DV) ,Iron (% DV) ,Caffeine (mg)
-Coffee,Brewed Coffee,Short,Short,3,0.1,0,0,0,5,0,0,0,0.3,0%,0%,0%,0%,175
-Coffee,Brewed Coffee,Tall,Tall,4,0.1,0,0,0,10,0,0,0,0.5,0%,0%,0%,0%,260
-Coffee,Brewed Coffee,Grande,Grande,5,0.1,0,0,0,10,0,0,0,1,0%,0%,0%,0%,330
-Coffee,Brewed Coffee,Venti,Venti,5,0.1,0,0,0,10,0,0,0,1,0%,0%,2%,0%,410
+Coffee,Brewed Coffee,No milk,Short,3,0.1,0,0,0,5,0,0,0,0.3,0%,0%,0%,0%,175
+Coffee,Brewed Coffee,No milk,Tall,4,0.1,0,0,0,10,0,0,0,0.5,0%,0%,0%,0%,260
+Coffee,Brewed Coffee,No milk,Grande,5,0.1,0,0,0,10,0,0,0,1,0%,0%,0%,0%,330
+Coffee,Brewed Coffee,No milk,Venti,5,0.1,0,0,0,10,0,0,0,1,0%,0%,2%,0%,410
 Classic Espresso Drinks,Caffè Latte,Nonfat Milk,Short,70,0.1,0.1,0,5,75,10,0,9,6,10%,0%,20%,0%,75
 Classic Espresso Drinks,Caffè Latte,2% Milk,Short,100,3.5,2,0.1,15,85,10,0,9,6,10%,0%,20%,0%,75
 Classic Espresso Drinks,Caffè Latte,Soymilk,Short,70,2.5,0.4,0,0,65,6,1,4,5,6%,0%,20%,8%,75
@@ -39,10 +39,10 @@ Classic Espresso Drinks,Vanilla Latte (Or Other Flavoured Latte),Soymilk,Grande,
 Classic Espresso Drinks,Vanilla Latte (Or Other Flavoured Latte),Nonfat Milk,Venti,250,0.3,0.2,0,10,180,47,0,45,15,25%,0%,50%,0%,150
 Classic Espresso Drinks,Vanilla Latte (Or Other Flavoured Latte),2% Milk,Venti,320,9,4.5,0.3,35,200,46,0,44,15,25%,2%,45%,0%,150
 Classic Espresso Drinks,Vanilla Latte (Or Other Flavoured Latte),Soymilk,Venti,270,7,1,0,0,160,39,2,33,12,15%,0%,45%,20%,150
-Classic Espresso Drinks,Caffè Americano,Short,Short,5,0,0,0,0,5,1,0,0,0.4,0%,0%,0%,0%,75
-Classic Espresso Drinks,Caffè Americano,Tall,Tall,10,0,0,0,0,10,2,0,0,1,0%,0%,2%,0%,150
-Classic Espresso Drinks,Caffè Americano,Grande,Grande,15,0,0,0,0,15,3,0,0,1,0%,0%,2%,0%,225
-Classic Espresso Drinks,Caffè Americano,Venti,Venti,25,0,0,0,0,15,4,0,0,1,0%,0%,2%,0%,300
+Classic Espresso Drinks,Caffè Americano,No milk,Short,5,0,0,0,0,5,1,0,0,0.4,0%,0%,0%,0%,75
+Classic Espresso Drinks,Caffè Americano,No milk,Tall,10,0,0,0,0,10,2,0,0,1,0%,0%,2%,0%,150
+Classic Espresso Drinks,Caffè Americano,No milk,Grande,15,0,0,0,0,15,3,0,0,1,0%,0%,2%,0%,225
+Classic Espresso Drinks,Caffè Americano,No milk,Venti,25,0,0,0,0,15,4,0,0,1,0%,0%,2%,0%,300
 Classic Espresso Drinks,Cappuccino,Nonfat Milk,Short,50,0.1,0.1,0,5,60,8,0,7,5,8%,0%,15%,0%,75
 Classic Espresso Drinks,Cappuccino,2% Milk,Short,80,3,1.5,0.1,10,70,8,0,7,5,8%,0%,15%,0%,75
 Classic Espresso Drinks,Cappuccino,Soymilk,Short,50,1.5,0.2,0,0,40,4,0,3,3,4%,0%,10%,6%,75
@@ -55,8 +55,8 @@ Classic Espresso Drinks,Cappuccino,Soymilk,Grande,100,3.5,0.4,0,0,80,9,1,5,7,8%,
 Classic Espresso Drinks,Cappuccino,Nonfat Milk,Venti,110,0.2,0.2,0,5,120,16,0,14,10,20%,0%,30%,0%,150
 Classic Espresso Drinks,Cappuccino,2% Milk,Venti,150,6,3,0.2,25,135,16,0,14,10,15%,0%,30%,0%,150
 Classic Espresso Drinks,Cappuccino,Soymilk,Venti,120,4.5,0.5,0,0,110,11,1,7,9,10%,0%,35%,15%,150
-Classic Espresso Drinks,Espresso,Solo,Solo,5,0,0,0,0,0,1,0,0,0.4,0%,0%,0%,0%,75
-Classic Espresso Drinks,Espresso,Doppio,Doppio,10,0,0,0,0,1,2,0,0,1,0%,0%,0%,0%,150
+Classic Espresso Drinks,Espresso,No milk,Solo,5,0,0,0,0,0,1,0,0,0.4,0%,0%,0%,0%,75
+Classic Espresso Drinks,Espresso,No milk,Doppio,10,0,0,0,0,1,2,0,0,1,0%,0%,0%,0%,150
 Classic Espresso Drinks,Skinny Latte (Any Flavour),Nonfat Milk,Short,60,0.1,0.1,0,5,80,9,0,8,6,10%,0%,20%,0%,75
 Classic Espresso Drinks,Skinny Latte (Any Flavour),Nonfat Milk,Tall,100,0.2,0.1,0,5,125,14,0,13,9,15%,0%,30%,0%,75
 Classic Espresso Drinks,Skinny Latte (Any Flavour),Nonfat Milk,Grande,120,0.3,0.2,0,5,160,18,0,16,12,20%,0%,35%,0%,150
@@ -97,14 +97,14 @@ Signature Espresso Drinks,Hot Chocolate (Without Whipped Cream),Soymilk,Grande,2
 Signature Espresso Drinks,Hot Chocolate (Without Whipped Cream),Nonfat Milk,Venti,320,3,2,0,10,180,63,2,55,18,25%,0%,50%,30%,30
 Signature Espresso Drinks,Hot Chocolate (Without Whipped Cream),2% Milk,Venti,380,11,6,0.3,35,200,63,2,54,17,25%,2%,50%,30%,30
 Signature Espresso Drinks,Hot Chocolate (Without Whipped Cream),Soymilk,Venti,330,9,2.5,0,0,160,55,4,44,15,15%,0%,50%,50%,30
-Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),Short,Short,140,0,0,0,0,10,35,0,33,0,0%,0%,0%,0%,0
-Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),Tall,Tall,210,0,0,0,0,15,53,0,49,0,0%,0%,0%,0%,0
-Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),Grande,Grande,280,0,0,0,0,20,70,0,65,0,0%,0%,0%,0%,0
-Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),Venti,Venti,360,0,0,0,0,25,89,0,83,0,0%,0%,0%,0%,0
-Tazo® Tea Drinks,Tazo® Tea,Short,Short,0,0,0,0,0,0,0,0,0,0,0%,0%,0%,0%,Varies
-Tazo® Tea Drinks,Tazo® Tea,Tall,Tall,0,0,0,0,0,0,0,0,0,0,0%,0%,0%,0%,Varies
-Tazo® Tea Drinks,Tazo® Tea,Grande,Grande,0,0,0,0,0,0,0,0,0,0,0%,0%,0%,0%,Varies
-Tazo® Tea Drinks,Tazo® Tea,Venti,Venti,0,0,0,0,0,0,0,0,0,0,0%,0%,0%,0%,Varies
+Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),No milk,Short,140,0,0,0,0,10,35,0,33,0,0%,0%,0%,0%,0
+Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),No milk,Tall,210,0,0,0,0,15,53,0,49,0,0%,0%,0%,0%,0
+Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),No milk,Grande,280,0,0,0,0,20,70,0,65,0,0%,0%,0%,0%,0
+Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),No milk,Venti,360,0,0,0,0,25,89,0,83,0,0%,0%,0%,0%,0
+Tazo® Tea Drinks,Tazo® Tea,No milk,Short,0,0,0,0,0,0,0,0,0,0,0%,0%,0%,0%,Varies
+Tazo® Tea Drinks,Tazo® Tea,No milk,Tall,0,0,0,0,0,0,0,0,0,0,0%,0%,0%,0%,Varies
+Tazo® Tea Drinks,Tazo® Tea,No milk,Grande,0,0,0,0,0,0,0,0,0,0,0%,0%,0%,0%,Varies
+Tazo® Tea Drinks,Tazo® Tea,No milk,Venti,0,0,0,0,0,0,0,0,0,0,0%,0%,0%,0%,Varies
 Tazo® Tea Drinks,Tazo® Chai Tea Latte,Nonfat Milk,Short,100,0.1,0.1,0,0,50,22,0,21,4,6%,0%,10%,0%,50
 Tazo® Tea Drinks,Tazo® Chai Tea Latte,2% Milk,Short,120,2,1,0.1,10,55,22,0,21,4,6%,0%,10%,0%,50
 Tazo® Tea Drinks,Tazo® Chai Tea Latte,Soymilk,Short,110,1.5,0.2,0,0,45,20,0,18,3,4%,0%,10%,6%,50
@@ -153,9 +153,9 @@ Tazo® Tea Drinks,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Soymilk,Grand
 Tazo® Tea Drinks,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Nonfat Milk,Venti,190,0.2,0.1,0,5,110,39,0,39,9,15%,0%,30%,0%,0
 Tazo® Tea Drinks,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),2% Milk,Venti,230,5,2.5,0.2,20,125,38,0,38,9,15%,0%,30%,0%,0
 Tazo® Tea Drinks,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Soymilk,Venti,210,4,0.5,0,0,100,34,1,32,7,10%,0%,30%,15%,0
-Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),Tall,Tall,60,0,0,0,0,4,15,0,15,0.2,0%,0%,0%,0%,120
-Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),Grande,Grande,90,0.1,0,0,0,5,21,0,21,0.3,0%,0%,0%,0%,165
-Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),Venti,Venti,130,0.1,0,0,0,5,31,0,31,0.4,0%,0%,0%,0%,235
+Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),No milk,Tall,60,0,0,0,0,4,15,0,15,0.2,0%,0%,0%,0%,120
+Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),No milk,Grande,90,0.1,0,0,0,5,21,0,21,0.3,0%,0%,0%,0%,165
+Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),No milk,Venti,130,0.1,0,0,0,5,31,0,31,0.4,0%,0%,0%,0%,235
 Shaken Iced Beverages,Iced Brewed Coffee (With Milk & Classic Syrup),Nonfat Milk,Tall,80,0.1,0,0,0,25,18,0,18,2,2%,0%,6%,0%,90
 Shaken Iced Beverages,Iced Brewed Coffee (With Milk & Classic Syrup),2% Milk,Tall,90,1,0.5,0,5,25,18,0,18,2,2%,0%,6%,0.00%,
 Shaken Iced Beverages,Iced Brewed Coffee (With Milk & Classic Syrup),Soymilk,Tall,80,1,0.1,0,0,20,17,0,17,2,2%,0%,6%,0%,90
@@ -165,12 +165,12 @@ Shaken Iced Beverages,Iced Brewed Coffee (With Milk & Classic Syrup),Soymilk,Gra
 Shaken Iced Beverages,Iced Brewed Coffee (With Milk & Classic Syrup),Nonfat Milk,Venti,160,0.1,0.1,0,0,50,36,0,36,4,6%,0%,10%,4%,125
 Shaken Iced Beverages,Iced Brewed Coffee (With Milk & Classic Syrup),2% Milk,Venti,180,2,1,0.1,10,55,36,0,36,4,6%,0%,10%,0%,170
 Shaken Iced Beverages,Iced Brewed Coffee (With Milk & Classic Syrup),Soymilk,Venti,170,1.5,0.2,0,0,45,34,0,33,3,4%,0%,10%,0%,170
-Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),Tall,Tall,60,0,0,0,0,0,15,0,15,0,0%,0%,0%,6%,170
-Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),Grande,Grande,80,0,0,0,0,0,21,0,21,0,0%,0%,0%,0%,Varies
-Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),Venti,Venti,120,0,0,0,0,0,31,0,31,0,0%,0%,0%,0%,Varies
-Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),Tall,Tall,100,0,0,0,0,0,25,0,24,0.1,0%,10%,0%,0%,Varies
-Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),Grande,Grande,130,0,0,0,0,0,33,0,33,0.1,0%,15%,0%,0%,Varies
-Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),Venti,Venti,190,0,0,0,0,0,49,0,49,0.1,0%,20%,0%,0%,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),No milk,Tall,60,0,0,0,0,0,15,0,15,0,0%,0%,0%,6%,170
+Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),No milk,Grande,80,0,0,0,0,0,21,0,21,0,0%,0%,0%,0%,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),No milk,Venti,120,0,0,0,0,0,31,0,31,0,0%,0%,0%,0%,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),No milk,Tall,100,0,0,0,0,0,25,0,24,0.1,0%,10%,0%,0%,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),No milk,Grande,130,0,0,0,0,0,33,0,33,0.1,0%,15%,0%,0%,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),No milk,Venti,190,0,0,0,0,0,49,0,49,0.1,0%,20%,0%,0%,Varies
 Smoothies,Banana Chocolate Smoothie,Nonfat Milk,Grande,280,2.5,1.5,0,5,150,53,7,34,20,10%,15%,20%,0%,Varies
 Smoothies,Banana Chocolate Smoothie,2% Milk,Grande,300,5,2.5,0.1,15,160,53,7,34,20,8%,15%,20%,20%,15
 Smoothies,Banana Chocolate Smoothie,Soymilk,Grande,290,4.5,1.5,0,5,150,51,7,31,19,6%,15%,20%,20%,15
