@@ -5,3 +5,5 @@
 
 
 - https://pandas.pydata.org/
+
+how do we measure 1 cal
