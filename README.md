@@ -49,6 +49,9 @@ Looking at the below charts we can conclude that the only "healthy coffee drinks
 ![](calories.jpg) 
 
 
+With the given data, The below heatmap clearly shows that the Calories has a high correlation with Sugar,Cholestrol and Total Carbohydrates.
+
+![image](https://user-images.githubusercontent.com/83912298/133897912-79c183ed-7106-46b8-9b03-19c4a77daf99.png)
 
 # Final Conclusions 
 [(Back to top)](#table-of-contents)
