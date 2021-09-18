@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Welcome to the Weather Data Visualization Dashboard</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand glossy-text" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="max_temperature.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
+              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+      
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      <div class="row gx-5">
+        <div class="box col-md-7 bg-light">
+          <article class="description-content">
+            <h1 class="text-muted">Summary: Latitude vs. X</h1>
+            <hr class="description-hr" />
+            <br>
+          <img class="w-50 float-start" src="Assets/Fig1.png" alt="Latitude">
+          <p>
+            The purpose of this project was to analyze how weather changes as you get closer to the equater.
+            To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a 
+            dataset on over 500 cities.
+          </p>
+          <p>
+            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
+            Factors we looked at included: humidity, temperature, cloudiness and windspeed. 
+            This site provides the source data and visualizations created as part of the analysis,as well as
+             explanations and descriptions of any trends and correlations witnessed.
+          </p>
+          </article>
+        </div>
+        <div class="col-md-5">
+          <div class="box bg-light clearfix">
+          <h1 class="text-muted">Plots</h1>
+         
+          <hr class="description-hr" />
+          <a href="https://aselsche.github.io/Web-Design-Challenge/max_temperature.html">
+            <img class="w-50 float-start" src="Assets/Fig1.png" alt="Latitude">
+          </a>
+          <a href="https://aselsche.github.io/Web-Design-Challenge/comparison.html">
+            <img class="w-50 float-start" src="Assets/Fig2.png" alt="Latitude">
+          </a>
+          <a href="https://aselsche.github.io/Web-Design-Challenge/cloudiness.html">
+            <img class="w-50 float-start" src="Assets/Fig3.png" alt="Latitude">
+          </a>       
+          <a href="https://aselsche.github.io/Web-Design-Challenge/wind_speed.html">
+            <img class="w-50 float-start" src="Assets/Fig4.png" alt="Latitude">
+          </a>  
+                   </div>
+        </div>
+
+      </div>
+         
+    </article> <!-- article -->
+    </div>
+   
+  <!-- Footer -->
+  <footer>
+    <!-- Copyright -->
+    <div class="container my-5"></div>
+    <div
+         class="text-center p-3" style="background-color: white">
+      © 2021 Copyright: Asel Connolly
+      <a class="text-dark" href="https://github.com/aselsche/python-api-challenge/"> | Weather Analysis Repo | </a >
+      <a class="text-dark" href="https://aselsche.github.io/Web-Design-Challenge/index.html">Website Repo </a >
+
+
+    </div>
+    <!-- Copyright -->
+   </footer>
+  <!-- Footer -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

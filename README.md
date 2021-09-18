@@ -6,8 +6,8 @@ We are a small non for profit coffee roastery based in North Carolina. Our coffe
 
 We have 2 criterias in selecting our potential partner:
 - A partner should be able to craft our coffee within healthy sugar/caloric ranges.
-- A partner has a diverse workspace and has gender equality.(???)
-- Committed to ethically sourcing and roasting the highest quality coffee.
+
+- Committed to ethically sourcing and roasting the highest quality coffee. 
 
 ![](starbucksLogo.jpg) 
 
