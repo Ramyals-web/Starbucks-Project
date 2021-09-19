@@ -1,4 +1,4 @@
-Brand,Store Name,Ownership Type,Street Address,State/Province,Country,Longitude,Latitude
+Brand,Store_Name,Ownership Type,Street Address,State/Province,Country,Longitude,Latitude
 Starbucks,"Meritxell, 96",Licensed,"Av. Meritxell, 96",7,AD,1.53,42.51
 Starbucks,Ajman Drive Thru,Licensed,"1 Street 69, Al Jarf",AJ,AE,55.47,25.42
 Starbucks,Dana Mall,Licensed,Sheikh Khalifa Bin Zayed St.,AJ,AE,55.47,25.39
@@ -8028,7 +8028,6 @@ Starbucks,Sinsa Station,Joint Venture,"1-3, Nonhyeon-dong, Gangnam-gu,",11,KR,12
 Starbucks,Jayang Sageori,Joint Venture,"779, Jayang-dong, Gwangjin-gu, Richensia",11,KR,127.08,37.54
 Starbucks,Bangbae Cafe Street,Joint Venture,"755-14 Bangbae-Dong, Seocho-Gu, 1F",11,KR,126.99,37.5
 Starbucks,Shinlim Intersection,Joint Venture,"1422-35. Sillim 5(o)-dong Gwanak-gu, IFC Mall",11,KR,126.75,37.33
-Starbucks,Yoido IFC Mall - 1F,Joint Venture,"23 & 23-1, Yoido-Dong, Yongdongpo-Gu, 1F, #101",11,KR,,
 Starbucks,Gangnam Vision Tower,Joint Venture,826-26 Yeoksam-dong Gangnam-gu,11,KR,127.03,37.5
 Starbucks,Posco intersection,Joint Venture,"157-36 samsung, Gangnamgu",11,KR,127.06,37.51
 Starbucks,Namyoungdong,Joint Venture,"galwaldong, youngsangu",11,KR,126.97,37.54
