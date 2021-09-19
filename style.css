@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-/* Body */
+/* Body
 body{
   background-color: #EDEDED; 
 }
 /* Navbar */
-.navbar{
+/* .navbar{
   max-height: 57px; 
 }
 .navigation .navbar-brand{
@@ -17,8 +16,8 @@ body{
 }
 .navbar{
   background-color:#008000; 
-  font-size: 15px; 
-}
+  font-size: 15px;  */
+/* }
 .active, .dropdown-menu .dropdown-item:active a:hover{
   background-color:#E7E7E7!important; 
 }
@@ -34,13 +33,13 @@ a{
 }
 .nav-link:hover{
   background-color:#E7E7E7 !important;
- }
+ } */
 
-.navbar-brand:hover{
+/* .navbar-brand:hover{
 color: rgb(175, 175, 175) !important;
 }
 /* Images */
-img{
+/* img{
   width:100% !important;
   height:100% !important;
 }
@@ -54,43 +53,43 @@ img{
   width :"500";
    height :"400";
    border-style:"border:1px solid black";
-}
+} */ 
 
 
-.vizualization{
+/* .vizualization{
   width:50% !important;
   height:50% !important;
-}
+} */
 
 /* Title Class  */
-.title{
+/* .title{
   color : #D2B48C;  
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder; 
   padding-top: 25px; 
-}
+} */
 /* Paragraph Element */
-p{
+/* p{
 color: #6D8092;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 17px; 
-}
+} */
 /* Box Class */
-.box {
+/* .box {
   margin-top: 60px; 
   margin-bottom: 62px; 
   padding: 10px 20px 15px; 
   color:black;
   background-color: white; 
 
-}
+} */
 /* Table */
-.table{
+/* .table{
   font-size: 15px; 
   border-top-color: white !important; 
-}
+} */
 /* Footer */
-footer{
+/* footer{
 background-color: #666666; 
 border-top-style: solid; 
 border-top-width: 5px; 
@@ -105,9 +104,9 @@ left: 0;
 bottom: 0;
 width: 100%;
 padding-top: 15px; 
-}
+} */
 /* Media Queries */
-@media(max-width: 992px){
+/* @media(max-width: 992px){
 .navbar-expand-lg{
 background-color: #0BADA6 !important;
 }
@@ -121,9 +120,9 @@ background-color: #0BADA6 !important;
 }
 .navbar-brand{
   padding: 10px !important; 
-}
+} */
 
-button{
+/* button{
   margin-right: 30px; 
 }
 button:focus {
@@ -131,9 +130,8 @@ button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focusring-color;
   
-  }
-}
-=======
+  } */
+/* } */ */
 body {
   background: #f1f1f1;
 }
@@ -173,7 +171,7 @@ h3 {
 
 .navbar-nav .nav-link {
   padding-top: 100px;
-  height: 200px;
+  height: 300px;
   padding-bottom: 10px;
   margin-right: 60px;
   font-size: 20px;
@@ -208,4 +206,3 @@ footer{
     text-transform: uppercase;
     font-size: 12px;
   }
->>>>>>> sneha
