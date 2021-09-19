@@ -13,11 +13,11 @@
   <link rel="stylesheet" href="style.css">
 
 
-  <title>Welcome to the Weather Data Visualization Dashboard</title>
+  <title>Welcome to the Starbucks Coffee Analysis</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-default">
     <div class="container-fluid">
       <a class="navbar-brand glossy-text" href="index.html">Starbucks</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -28,9 +28,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle glossy-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Plots
+              Nutrition
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="max_temperature.html">Max Temperature</a></li>
@@ -40,12 +40,9 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="data.html">Data</a>
+            <a class="nav-link glossy-text" href="data.html">Consumption</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="comparison.html">Comparison</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -57,26 +54,47 @@
       <div class="row gx-5">
         <div class="box col-md-7 bg-light">
           <article class="description-content">
-            <h1 class="text-muted">Summary: Latitude vs. X</h1>
+            <h1 class="text-muted">Did you know??</h1>
             <hr class="description-hr" />
             <br>
-          <img class="w-50 float-start" src="locations_marked.html" alt="locations_marked">
           <p>
-            The purpose of this project was to analyze how weather changes as you get closer to the equater.
-            To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a 
-            dataset on over 500 cities.
-          </p>
-          <p>
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-            Factors we looked at included: humidity, temperature, cloudiness and windspeed. 
-            This site provides the source data and visualizations created as part of the analysis,as well as
-             explanations and descriptions of any trends and correlations witnessed.
+            <b>About Starbucks</b>
+            <ul>
+              <li>September 2020, the company has 32,660 stores in 83 countries, including 16,637 company operated stores and 16,023 licensed stores.</li>
+              <li>Of these 32,660 stores, 18,354 are in the United States, Canada, and Latin America.</li>
+              <li>Starbucks locations serve hot and cold drinks, whole-bean coffee, micro-ground instant coffee, espresso, caffe latte, full and loose-leaf teas, juices, Frappuccino beverages, pastries, and snacks. Some offerings are seasonal or specific to the locality of the store.</li>
+              <li>The company opened an average of two new locations daily between 1987 and 2007.</li>
+            </ul>
+            <br>
+            <b>Surprising Facts about Starbucks</b>
+            <br>
+            <ul>
+              <li>It was founded by two teachers and a writer.</li>
+              <li>The most loyal 20% of customers come into the store at least 16 times per month.</li>
+              <li>There are over 87,000 drink combination possibilities.</li>
+              <li>The “trenta” sized cup holds more liquid than the human stomach.</li>
+              <li>The inventor of the Pumpkin Spice Latte was a Stanford basketball player.</li>
+              <li>Since 1987, an average of two Starbucks stores have opened each day.</li>
+              <li>The majority of their flavored drinks contain more sugar than one should consume in entire day.</li>
+              <li>A “grande” sized coffee contains four times the amount of caffeine as Red Bull.</li>
+              <li>Starbucks spends more on the healthcare insurance of its employees than on its coffee beans.</li>
+            </ul>
+            <br>
+            <ul>
+              <b>Starbucks Presence all over the world</b>
+            </ul>
+            <iframe src="locations_marked.html" width="750" height="400" frameBorder="1"></iframe>
+            <br>
+            <ul>
+              <b>Starbucks Presence in the US</b>
+            </ul>
+            <iframe src="us_states_map.html" width="750" height="400" frameBorder="0"></iframe>
           </p>
           </article>
         </div>
         <div class="col-md-5">
           <div class="box bg-light clearfix">
-          <h1 class="text-muted">Plots</h1>
+          <h1 class="text-muted">More about Starbucks</h1>
          
           <hr class="description-hr" />
           <a href="https://aselsche.github.io/Web-Design-Challenge/max_temperature.html">

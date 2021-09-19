@@ -6,6 +6,12 @@ p {
   padding-left: 20px;
   padding-right: 0px;
 }
+
+.navbar-default {
+  background-image: url("starbucks_coffee.jpg");
+  background: url('starbucks_coffee.jpg');
+}
+
 h1 {
   padding: 16px;
   padding-left: 10px;
@@ -18,9 +24,9 @@ h1 {
 }
 
 .glossy-text {
-  font-size: 75px;
-  padding-left: 50px;
-  background: -webkit-linear-gradient(#eee, rgb(22, 136, 56));
+  font-size: 50px;
+  padding-left: 100px;
+  background: -webkit-linear-gradient(#eee, rgb(7, 88, 32));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -30,7 +36,8 @@ h3 {
 }
 
 .navbar-nav .nav-link {
-  padding-top: 20px;
+  padding-top: 100px;
+  height: 200px;
   padding-bottom: 10px;
   margin-right: 60px;
   font-size: 20px;
