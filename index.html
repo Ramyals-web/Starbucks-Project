@@ -1,53 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Starbucks Project-3</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Plotly static site example</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
 </head>
 
 <body>
+  <style>
+    body {
+        background-image: "starbucks-logo.png" ;
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+          }
+    </style>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Starbucks Demographic Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-        </div>
+<div class="jumbotron text-center">
+  <div class=“row”>
+    <div class=“column”>
+      <img src=“starbucks-logo.png”  style="width:100%">
     </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Select Age group:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
-          </div>
-          <div id="sample-metadata" class="panel-body"></div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
-      </div>
-    </div>
-  </div>
+      <h1>Starbucks Demographic</h1>
+    <p>Information about Age, Gender and Income per year.</p>
+</div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="static/js/samples.json"></script>
-  <script src="static/js/app.js"></script>
+<div class="container-fluid" style="margin-top:40px">
+    <iframe src="pisexcnt.html" width="100%" height="400"></iframe>
+    <ul>
+      <li>The pie chart shows that there are 57.20% male customers , female customers account for 41.20% and rest chose to be Unknown.</li>
+    </ul>
+    <iframe src="barAgeSex.html" width="100%" height="400"></iframe>
+    <ul>
+      <li>As you can notice that at age below 80, most cosumption of starbucks is done by Male but after age 80 on average, females are consuming more. Majority of consumption is done by 40-70 years old.</li>
+    </ul>
+    <iframe src="avgsexinc.html" width="100%" height="400"></iframe>
+    <ul>
+      <li>In pie chart, We can see that, on average, male customers earn less than female customers do in a year. Female customers make, on average, around 71k a year, male customers make, on average, around 61k.</li>
+    </ul>
+    <iframe src="barIncomeAGe.html" width="100%" height="400"></iframe>
+    <ul>
+      <li>The above bar plot shows that the majority of our customers make between 45k and 80k around minority are making more than 100k per year, some customers earn less than 50k and the other earn between 76k and 100k. Overall, we can see that most of the female customers make between 45k — 75k, and most of the make customers earn 45k— 60k.</li>
+    </ul>
+</div>
+
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

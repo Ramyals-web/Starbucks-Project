@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Plotly static site example</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+</head>
+
+<body>
+  <style>
+    body {
+        background-image: "starbucks-logo.png" ;
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+          }
+    </style>
+
+<div class="jumbotron text-center" style="background-image: url(demographics.png)">
+       <h1>Starbucks Demographic</h1>
+       <h1 style="colour: green; font-size:16px"></h1>
+    <p>Information about Age, Gender and Income per year.</p>
+</div>
+
+<div class="container-fluid" style="margin-top:40px">
+    <iframe src="pisexcnt.html" width="100%" height="400"></iframe>
+    <ul>
+      <li>The pie chart shows that there are 57.20% male customers , female customers account for 41.20% and rest chose to be Unknown.</li>
+    </ul>
+    <iframe src="barAgeSex.html" width="100%" height="400"></iframe>
+    <ul>
+      <li>As you can notice that at age below 80, most cosumption of starbucks is done by Male but after age 80 on average, females are consuming more. Majority of consumption is done by 40-70 years old.</li>
+    </ul>
+    <iframe src="avgsexinc.html" width="100%" height="400"></iframe>
+    <ul>
+      <li>In pie chart, We can see that, on average, male customers earn less than female customers do in a year. Female customers make, on average, around 71k a year, male customers make, on average, around 63k.</li>
+    </ul>
+    <iframe src="barIncomeAGe.html" width="100%" height="400"></iframe>
+    <ul>
+      <li>The above bar plot shows that the majority of our customers make between 45k and 80k around minority are making more than 100k per year, some customers earn less than 50k and the other earn between 76k and 100k. Overall, we can see that most of the female customers make between 45k — 75k, and most of the make customers earn 45k— 60k.</li>
+    </ul>
+</div>
+
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
