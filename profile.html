@@ -1,60 +1,110 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Plotly static site example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-          crossorigin="anonymous">
+
+  <title>Welcome to the Weather Data Visualization Dashboard</title>
 </head>
 
 <body>
-  <style>
-    body {
-        background-image: "starbucks-logo.png" ;
-        background-size: 100% 50%;
-        background-repeat: no-repeat;
-          }
-    </style>
+    <nav class="navbar navbar-expand-lg navbar-default">
+        <div class="container-fluid">
+            <a class="navbar-brand glossy-text" href="index.html">Starbucks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-<div class="jumbotron text-center" style="background-image: url(demographics.png)">
-       <h1 style="colour: green; font-size:26px">Starbucks Demographic</h1>
-        <p>Information about Age, Gender and Income per year.</p>
-</div>
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="max_temperature.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
+              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
 
-<div class="container-fluid" style="margin-top:40px">
-    <iframe src="pisexcnt.html" width="100%" height="400"></iframe>
-    <ul>
-      <li>The pie chart shows that there are 57.20% male customers , female customers account for 41.20% and rest chose to be Unknown.</li>
-    </ul>
-    <iframe src="barAgeSex.html" width="100%" height="400"></iframe>
-    <ul>
-      <li>As you can notice that at age below 80, most cosumption of starbucks is done by Male but after age 80 on average, females are consuming more. Majority of consumption is done by 40-70 years old.</li>
-    </ul>
-    <iframe src="avgsexinc.html" width="100%" height="400"></iframe>
-    <ul>
-      <li>In pie chart, We can see that, on average, male customers earn less than female customers do in a year. Female customers make, on average, around 71k a year, male customers make, on average, around 63k.</li>
-    </ul>
-    <iframe src="barIncomeAGe.html" width="100%" height="400"></iframe>
-    <ul>
-      <li>The above bar plot shows that the majority of our customers make between 45k and 80k around minority are making more than 100k per year, some customers earn less than 50k and the other earn between 76k and 100k. Overall, we can see that most of the female customers make between 45k — 75k, and most of the make customers earn 45k— 60k.</li>
-    </ul>
-</div>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+        </ul>
+      </div> -->
+    </div>
+  </nav>
 
-</div>
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <div class="container bg-light">
+    <h1 style="color: rgb(19, 138, 128);">Starbucks Demographics</h1>
+    <h1 style="color: rgb(19, 138, 128); font-size: large">Information about Age, Gender and Income per year.</h1>
+
+    <div class="container-fluid" style="margin-top:40px">
+        <ul>
+          <li>The pie chart shows that there are 57.20% male customers , female customers account for 41.20% and rest chose to be Unknown.</li>
+        </ul>
+        <br>
+        <iframe src="pisexcnt.html" width="100%" height="400"></iframe>
+        <br>
+        <ul>
+          <li>As you can notice that at age below 80, most cosumption of starbucks is done by Male but after age 80 on average, females are consuming more. Majority of consumption is done by 40-70 years old.</li>
+        </ul>
+        <br>
+        <iframe src="barAgeSex.html" width="100%" height="400"></iframe>
+        <br>
+        <ul>
+          <li>In pie chart, We can see that, on average, male customers earn less than female customers do in a year. Female customers make, on average, around 71k a year, male customers make, on average, around 63k.</li>
+        </ul>
+        <br>
+        <iframe src="avgsexinc.html" width="100%" height="400"></iframe>
+        <br>
+        <ul>
+          <li>The above bar plot shows that the majority of our customers make between 45k and 80k around minority are making more than 100k per year, some customers earn less than 50k and the other earn between 76k and 100k. Overall, we can see that most of the female customers make between 45k — 75k, and most of the make customers earn 45k— 60k.</li>
+        </ul>
+        <br>
+        <iframe src="barIncomeAGe.html" width="100%" height="400"></iframe>
+    </div>
+
+    </div>
+  </div>
+  </div>
+
+     
+  <!-- Footer -->
+  <footer>
+    <!-- Copyright -->
+    <div class="container my-5"></div>
+    <div
+         class="text-center p-3" style="background-color: white">
+      © 2021 Copyright: Team Coffee
+      <a class="text-dark" href="https://github.com/snehachada/Is_Starbucks_your_cup_of_coffee">Website Repo </a >
+
+
+    </div>
+    <!-- Copyright -->
+   </footer>
+  <!-- Footer -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </body>
-</html>
