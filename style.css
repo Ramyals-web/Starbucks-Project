@@ -1,3 +1,99 @@
+body {
+  background: #40ceaf;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.navbar-default {
+  background-image: url("starbucks_coffee.jpg");
+  background: url('starbucks_coffee.jpg');
+  height: 300px;
+}
+
+.fill {
+  width: 1100px;
+}
+
+h1 {
+  padding: 16px;
+  padding-left: 10px;
+  font-size: 26px;
+}
+
+.w-50{
+  padding-right: 20px;
+  margin-right: 0px;
+
+}
+
+.glossy-text {
+  font-size: 50px;
+  padding-left: 100px;
+  background: -webkit-linear-gradient(#eee, rgb(7, 88, 32));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 100px;
+  height: 300px;
+  padding-bottom: 10px;
+  margin-right: 60px;
+  font-family:verdana
+}
+
+.navbar-left {
+  position: absolute;
+  left: 0%;
+  transform: translatex(0%);
+  padding-top: 6.5%;
+  padding-left: 7%;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* .navbar-nav .nav-link {
+  padding-top: 100px;
+  height: 300px;
+  padding-bottom: 10px;
+  margin-right: 60px;
+  font-size: 20px;
+  font-family:verdana
+} */
+
+.navbar-dark .navbar-brand {
+  font-size: 40px;
+  height: 300px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.box {
+  padding:25px;
+}
+
+text {
+  text-align: center;
+}
+
+footer{ 
+  min-height:50px; 
+  padding-top: 20px;
+  padding-right: 50px;
+}
+.p-3 {
+  
+    color: navy;
+    text-indent: 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+
 /* Body
 body{
   background-color: #EDEDED; 
@@ -131,78 +227,4 @@ button:focus {
   outline: 5px auto -webkit-focusring-color;
   
   } */
-/* } */ */
-body {
-  background: #f1f1f1;
-}
-
-p {
-  padding-left: 20px;
-  padding-right: 0px;
-}
-
-.navbar-default {
-  background-image: url("starbucks_coffee.jpg");
-  background: url('starbucks_coffee.jpg');
-}
-
-h1 {
-  padding: 16px;
-  padding-left: 10px;
-  font-size: 26px;
-}
-.w-50{
-  padding-right: 20px;
-  margin-right: 0px;
-
-}
-
-.glossy-text {
-  font-size: 50px;
-  padding-left: 100px;
-  background: -webkit-linear-gradient(#eee, rgb(7, 88, 32));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-h3 {
-  font-size: 30px;
-}
-
-.navbar-nav .nav-link {
-  padding-top: 100px;
-  height: 300px;
-  padding-bottom: 10px;
-  margin-right: 60px;
-  font-size: 20px;
-  font-family:verdana
-}
-
-.navbar-dark .navbar-brand {
-  font-size: 40px;
-}
-
-.navbar {
-  margin-bottom: 30px;
-}
-
-.box {
-  padding:25px;
-}
-
-text {
-  text-align: center;
-}
-
-footer{ 
-  min-height:50px; 
-  padding-top: 20px;
-  padding-right: 50px;
-}
-.p-3 {
-  
-    color: navy;
-    text-indent: 25px;
-    text-transform: uppercase;
-    font-size: 12px;
-  }
+/* } */ 
