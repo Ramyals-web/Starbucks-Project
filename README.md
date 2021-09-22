@@ -30,9 +30,9 @@ Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ip
 # Nutrition
 [(Back to top)](#table-of-contents)
 We had 3 hypotheses:
-- The size of the beverages have a positive correlation with the sugar content and calories of the beerage
-- 50 of Starbucks drinks will exceed the daily recommended value for Sugar
-- Starbucks beverages... Ramya (any thoughts?)
+- The size of the beverages have a positive correlation with the sugar content and calories of the beverage.
+- At least 50 of Starbucks drinks will exceed the daily recommended value for Sugar.
+- Calories will have a high correlation with Sugar, Cholestrol and Total Carbohydrates.
 While the analysis showed that most of the espresso drinks have lower than 30 grams of sugar, one of the most eye-opening finding for us was that 71% of Starbucks drinks of all categories of size Grande exceed daily recommended sugar amount which is 30grams/day. 
 
 ![](espresso_drink_sugar.png) 
